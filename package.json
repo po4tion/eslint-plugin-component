@@ -13,6 +13,9 @@
     "type": "git",
     "url": "https://github.com/po4tion/eslint-plugin-component"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "author": "po4tion",
   "main": "./lib/index.js",
   "exports": "./lib/index.js",

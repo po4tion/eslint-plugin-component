@@ -22,27 +22,24 @@ Add `component` to the plugins section of your `.eslintrc` configuration file. Y
 
 ```json
 {
-    "plugins": [
-        "component"
-    ]
+  "plugins": ["component"]
 }
 ```
-
 
 Then configure the rules you want to use under the rules section.
 
 ```json
 {
-    "rules": {
-        "component/rule-name": 2
-    }
+  "rules": {
+    "component/case-strict": "error"
+  }
 }
 ```
 
 ## Rules
 
 <!-- begin auto-generated rules list -->
-TODO: Run eslint-doc-generator to generate the rules list.
+
+component/case-strict : Change the first letter of the component to uppercase if it is lowercase.
+
 <!-- end auto-generated rules list -->
-
-
