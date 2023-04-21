@@ -36,6 +36,8 @@ Then configure the rules you want to use under the rules section.
 }
 ```
 
+This plugin only works in the components folder path.
+
 ## Rules
 
 <!-- begin auto-generated rules list -->
