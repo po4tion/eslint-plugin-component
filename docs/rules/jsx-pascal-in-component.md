@@ -31,7 +31,7 @@ function Component = () => {}
 ```js
 ...
 "rules": {
-  "jsx-pascal-in-component": [
+  "component/jsx-pascal-in-component": [
     <enabled>,
     { allowAllPaths: <allowAllPaths> }
   ]
