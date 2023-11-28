@@ -20,7 +20,7 @@ module.exports = {
     "node/no-unpublished-require": [
       "error",
       {
-        allowModules: ["eslint"],
+        allowModules: ["eslint", "jest"],
       },
     ],
   },
