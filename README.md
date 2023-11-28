@@ -36,20 +36,10 @@ Add `component` to the plugins section of your `.eslintrc` configuration file. Y
 }
 ```
 
-Then configure the rules you want to use under the rules section.
-
-```json
-{
-  "rules": {
-    "component/case-strict": "error"
-  }
-}
-```
-
 ## Rules
 
 <!-- begin auto-generated rules list -->
 
-component/case-strict : Change the first letter of the component to uppercase if it is lowercase.
+[component/jsx-pascal-in-component](docs/rules/jsx-pascal-in-component.md) : Change the first letter of the component to uppercase if it is lowercase.
 
 <!-- end auto-generated rules list -->

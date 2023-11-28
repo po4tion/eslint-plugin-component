@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-component",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Change the first letter of the component to uppercase if it is lowercase.",
   "keywords": [
     "eslint",
@@ -17,29 +17,23 @@
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
   "scripts": {
-    "lint": "npm-run-all \"lint:*\"",
-    "lint:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
     "lint:js": "eslint .",
     "test": "mocha tests --recursive",
     "update:eslint-docs": "eslint-doc-generator"
   },
   "dependencies": {
-    "@babel/eslint-parser": "^7.21.3",
-    "@babel/preset-react": "^7.18.6"
+    "@babel/eslint-parser": "^7.23.3",
+    "@babel/preset-react": "^7.23.3"
   },
   "devDependencies": {
-    "eslint": "^8.19.0",
-    "eslint-doc-generator": "^1.0.0",
-    "eslint-plugin-eslint-plugin": "^5.0.0",
+    "eslint": "^8.54.0",
+    "eslint-doc-generator": "^1.6.1",
+    "eslint-plugin-eslint-plugin": "^5.1.1",
     "eslint-plugin-node": "^11.1.0",
-    "mocha": "^10.0.0",
-    "npm-run-all": "^4.1.5"
+    "mocha": "^10.2.0"
   },
   "engines": {
     "node": "^14.17.0 || ^16.0.0 || >= 18.0.0"
-  },
-  "peerDependencies": {
-    "eslint": ">=7"
   },
   "license": "ISC"
 }
