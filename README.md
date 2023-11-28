@@ -1,7 +1,5 @@
 # eslint-plugin-component
 
-espc
-
 ## Installation
 
 You'll first need to install [ESLint](https://eslint.org/):
