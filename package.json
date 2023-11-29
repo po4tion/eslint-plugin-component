@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-component",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Change the first letter of the component to uppercase if it is lowercase.",
   "keywords": [
     "eslint",
