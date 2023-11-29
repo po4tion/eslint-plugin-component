@@ -8,7 +8,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-const rule = require("../../../lib/rules/number-clarity");
+const rule = require("../../../lib/rules/number-easy-read");
 const RuleTester = require("eslint").RuleTester;
 
 //------------------------------------------------------------------------------
@@ -27,7 +27,7 @@ const ruleTester = new RuleTester({
   },
 });
 
-ruleTester.run("number-clarity", rule, {
+ruleTester.run("number-easy-read", rule, {
   valid: [
     {
       code: "const a = 123_123;",
