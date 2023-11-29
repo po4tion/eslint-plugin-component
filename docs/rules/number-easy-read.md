@@ -31,9 +31,7 @@ const num = 123_456_789;
 ```js
 ...
 "rules": {
-  "component/number-easy-read": [
-    <enabled>
-  ]
+  "component/number-easy-read": <enabled>
 }
 ...
 
