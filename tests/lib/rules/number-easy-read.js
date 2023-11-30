@@ -22,46 +22,46 @@ const ruleTester = new RuleTester({
     sourceType: "module",
     requireConfigFile: false,
     babelOptions: {
-      presets: ["@babel/preset-react"],
-    },
-  },
+      presets: ["@babel/preset-react"]
+    }
+  }
 });
 
 ruleTester.run("number-easy-read", rule, {
   valid: [
     {
-      code: "const a = 123_123",
+      code: "const a = 123_123"
     },
     {
       code: "const a = 23123",
       options: [
         {
-          minLength: 6,
-        },
-      ],
+          minLength: 6
+        }
+      ]
     },
     {
       code: "const a = 1234567",
       options: [
         {
-          minLength: 8,
-        },
-      ],
+          minLength: 8
+        }
+      ]
     },
     {
       code: "const a = 2_312_323_123",
       options: [
         {
-          minLength: 10,
-        },
-      ],
-    },
+          minLength: 10
+        }
+      ]
+    }
   ],
   invalid: [
     {
       code: "const a = 123123",
       errors: [{ messageId: "numericWarning" }],
-      output: "const a = 123_123",
-    },
-  ],
+      output: "const a = 123_123"
+    }
+  ]
 });

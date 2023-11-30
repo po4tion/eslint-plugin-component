@@ -22,50 +22,50 @@ const ruleTester = new RuleTester({
     sourceType: "module",
     requireConfigFile: false,
     babelOptions: {
-      presets: ["@babel/preset-react"],
-    },
-  },
+      presets: ["@babel/preset-react"]
+    }
+  }
 });
 
 ruleTester.run("jsx-pascal-in-component", rule, {
   valid: [
     {
       code: "function ComponentName() { return <div>ComponentName</div>}",
-      filename: "components/ComponentName.jsx",
+      filename: "components/ComponentName.jsx"
     },
     {
       code: "const ComponentName = () => { return <div>ComponentName</div>}",
-      filename: "components/ComponentName.jsx",
+      filename: "components/ComponentName.jsx"
     },
     {
       code: "const ComponentName = () => { return <div>ComponentName</div>}",
-      filename: "components/A/A.jsx",
+      filename: "components/A/A.jsx"
     },
     {
       code: "function ComponentName() { return <div>ComponentName</div>}",
       filename: "hocs/ComponentName.jsx",
-      options: [{ allowAllPaths: true }],
-    },
+      options: [{ allowAllPaths: true }]
+    }
   ],
   invalid: [
     {
       code: "function componentName() { return <div>ComponentName</div>}",
       filename: "components/componentName.jsx",
       errors: [{ messageId: "componentNameError" }],
-      output: "function ComponentName() { return <div>ComponentName</div>}",
+      output: "function ComponentName() { return <div>ComponentName</div>}"
     },
     {
       code: "const componentName = () => { return <div>ComponentName</div>}",
       filename: "components/componentName.jsx",
       errors: [{ messageId: "componentNameError" }],
-      output: "const ComponentName = () => { return <div>ComponentName</div>}",
+      output: "const ComponentName = () => { return <div>ComponentName</div>}"
     },
     {
       code: "const componentName = () => { return <div>ComponentName</div>}",
       filename: "hocs/componentName.jsx",
       options: [{ allowAllPaths: true }],
       errors: [{ messageId: "componentNameError" }],
-      output: "const ComponentName = () => { return <div>ComponentName</div>}",
-    },
-  ],
+      output: "const ComponentName = () => { return <div>ComponentName</div>}"
+    }
+  ]
 });

@@ -21,7 +21,8 @@
     "lint:js": "eslint .",
     "test-rules": "mocha tests --recursive",
     "unit-test": "jest --coverage",
-    "update:eslint-docs": "eslint-doc-generator"
+    "update:eslint-docs": "eslint-doc-generator",
+    "prettier": "exec prettier . --write"
   },
   "dependencies": {
     "@babel/eslint-parser": "^7.23.3",
