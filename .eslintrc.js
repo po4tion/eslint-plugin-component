@@ -6,25 +6,27 @@ module.exports = {
     "eslint:recommended",
     "plugin:eslint-plugin/recommended",
     "plugin:node/recommended",
+    "plugin:prettier/recommended",
+    "prettier"
   ],
   env: {
-    node: true,
+    node: true
   },
   parserOptions: {
-    ecmaVersion: 2021,
+    ecmaVersion: 2021
   },
   overrides: [
     {
       files: ["tests/**/*.js"],
-      env: { mocha: true },
-    },
+      env: { mocha: true }
+    }
   ],
   rules: {
     "node/no-unpublished-require": [
       "error",
       {
-        allowModules: ["eslint", "jest"],
-      },
-    ],
-  },
+        allowModules: ["eslint", "jest"]
+      }
+    ]
+  }
 };
