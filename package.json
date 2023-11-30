@@ -13,6 +13,7 @@
     "type": "git",
     "url": "https://github.com/po4tion/eslint-plugin-component"
   },
+  "bugs": "https://github.com/po4tion/eslint-plugin-component/issues",
   "author": "po4tion",
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
