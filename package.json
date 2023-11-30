@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-component",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "eslint plugin for everyone.",
   "keywords": [
     "eslint",
@@ -16,6 +16,9 @@
   "author": "po4tion",
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
+  "publishConfig": {
+    "main": "./lib/index.js"
+  },
   "scripts": {
     "lint:js": "eslint .",
     "test-rules": "mocha tests --recursive",
