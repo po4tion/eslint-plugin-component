@@ -1,0 +1,6 @@
+# Force git to use LF
+*                       text=auto eol=lf
+
+# Hide .yarn and docs from GitHub's language detection
+/.github/**             linguist-documentation
+/docs/**                linguist-documentation
