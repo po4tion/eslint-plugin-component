@@ -4,10 +4,10 @@
   "description": "eslint plugin for everyone.",
   "keywords": [
     "eslint",
-    "eslintplugin",
     "eslint-plugin",
     "react",
-    "component"
+    "component",
+    "JavaScript"
   ],
   "repository": {
     "type": "git",
@@ -24,11 +24,9 @@
     "update:eslint-docs": "eslint-doc-generator",
     "prettier": "exec prettier . --write"
   },
-  "dependencies": {
-    "@babel/eslint-parser": "^7.23.3",
-    "@babel/preset-react": "^7.23.3"
-  },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.23.3",
+    "@babel/preset-react": "^7.23.3",
     "@types/jest": "^29.5.10",
     "eslint": "^8.54.0",
     "eslint-config-prettier": "^9.0.0",
