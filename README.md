@@ -42,3 +42,9 @@ Add `component` to the plugins section of your `.eslintrc` configuration file. Y
 [component/number-easy-read](docs/rules/number-easy-read.md) : Enforce number literals for readability.
 
 <!-- end auto-generated rules list -->
+
+## Contributing
+
+We welcome contribution from everyone in the community. Read below for detailed contribution guide.
+
+[CONTRIBUTING](CONTRIBUTING.md)
