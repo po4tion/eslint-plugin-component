@@ -30,7 +30,31 @@ const ruleTester = new RuleTester({
 ruleTester.run("number-easy-read", rule, {
   valid: [
     {
-      code: "const a = 123_123;",
+      code: "const a = 123_123",
+    },
+    {
+      code: "const a = 23123",
+      options: [
+        {
+          minLength: 6,
+        },
+      ],
+    },
+    {
+      code: "const a = 1234567",
+      options: [
+        {
+          minLength: 8,
+        },
+      ],
+    },
+    {
+      code: "const a = 2_312_323_123",
+      options: [
+        {
+          minLength: 10,
+        },
+      ],
     },
   ],
   invalid: [
