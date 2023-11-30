@@ -16,9 +16,6 @@
   "author": "po4tion",
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
-  "publishConfig": {
-    "main": "./lib/index.js"
-  },
   "scripts": {
     "lint:js": "eslint .",
     "test-rules": "mocha tests --recursive",
