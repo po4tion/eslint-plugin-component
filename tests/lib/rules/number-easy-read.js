@@ -1,29 +1,18 @@
 /**
- * @fileoverview espc
+ * @fileoverview Enforce number literals for readability.
  * @author po4tion
  */
 "use strict";
 
-//------------------------------------------------------------------------------
-// Requirements
-//------------------------------------------------------------------------------
-
 const rule = require("../../../lib/rules/number-easy-read");
 const RuleTester = require("eslint").RuleTester;
-
-//------------------------------------------------------------------------------
-// Tests
-//------------------------------------------------------------------------------
 
 const ruleTester = new RuleTester({
   parser: require.resolve("@babel/eslint-parser"),
   parserOptions: {
-    ecmaVersion: 12,
+    ecmaVersion: 2023,
     sourceType: "module",
-    requireConfigFile: false,
-    babelOptions: {
-      presets: ["@babel/preset-react"]
-    }
+    requireConfigFile: false
   }
 });
 

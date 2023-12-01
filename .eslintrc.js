@@ -25,7 +25,7 @@ module.exports = {
     "node/no-unpublished-require": [
       "error",
       {
-        allowModules: ["eslint", "jest"]
+        allowModules: ["eslint", "jest", "@babel/eslint-parser"]
       }
     ]
   }

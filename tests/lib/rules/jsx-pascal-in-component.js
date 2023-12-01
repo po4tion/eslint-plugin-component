@@ -1,24 +1,16 @@
 /**
- * @fileoverview espc
+ * @fileoverview Change the first letter of the component to uppercase if it is lowercase.
  * @author po4tion
  */
 "use strict";
 
-//------------------------------------------------------------------------------
-// Requirements
-//------------------------------------------------------------------------------
-
 const rule = require("../../../lib/rules/jsx-pascal-in-component");
 const RuleTester = require("eslint").RuleTester;
-
-//------------------------------------------------------------------------------
-// Tests
-//------------------------------------------------------------------------------
 
 const ruleTester = new RuleTester({
   parser: require.resolve("@babel/eslint-parser"),
   parserOptions: {
-    ecmaVersion: 12,
+    ecmaVersion: 2023,
     sourceType: "module",
     requireConfigFile: false,
     babelOptions: {
