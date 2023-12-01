@@ -17,7 +17,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ["tests/**/*.js"],
+      files: ["lib/tests/**/*.js"],
       env: { mocha: true }
     }
   ],

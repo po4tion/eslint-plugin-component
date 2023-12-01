@@ -19,7 +19,7 @@
   "exports": "./lib/index.js",
   "scripts": {
     "lint:js": "eslint .",
-    "test-rules": "mocha tests --recursive",
+    "test-all-rules": "mocha lib/tests",
     "unit-test": "jest --coverage",
     "update:eslint-docs": "eslint-doc-generator",
     "prettier": "exec prettier . --write"
