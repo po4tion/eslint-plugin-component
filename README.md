@@ -38,8 +38,9 @@ Add `component` to the plugins section of your `.eslintrc` configuration file. Y
 
 <!-- begin auto-generated rules list -->
 
-[component/jsx-pascal-in-component](docs/rules/jsx-pascal-in-component.md) : Change the first letter of the component to uppercase if it is lowercase.
-[component/number-easy-read](docs/rules/number-easy-read.md) : Enforce number literals for readability.
+[component/jsx-pascal-in-component](docs/jsx-pascal-in-component.md) : Change the first letter of the component to uppercase if it is lowercase.
+[component/number-easy-read](docs/number-easy-read.md) : Enforce number literals for readability.
+[component/constatns](docs/constants.md) : Enforce capital letters in constant variable names.
 
 <!-- end auto-generated rules list -->
 

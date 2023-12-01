@@ -44,6 +44,24 @@ const num = 123_456_789;
 - `enabled`: for enabling the rule. 0=off, 1=warn, 2=error. Defaults to 0.
 - `minLength`: set the length of the number to which eslint applies (default to `4`).
 
+### `customType`
+
+### 🔴 Incorrect
+
+When `minLength` is `9`:
+
+```jsx
+const num = 123456789;
+```
+
+### 🟢 Correct
+
+When `minLength` is `9`:
+
+```jsx
+const num = 123_456_789;
+```
+
 ## When Not To Use It
 
 When you don't care about readability when writing number type code.

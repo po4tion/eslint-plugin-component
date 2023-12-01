@@ -46,7 +46,9 @@ function Component = () => {}
 
 ### `allowAllPaths`
 
-Examples of **correct** code for this rule, when `allowAllPaths` is `false`:
+### 🔴 Incorrect
+
+When `allowAllPaths` is `false`:
 
 ```jsx
 // hocs/Component.jsx
@@ -64,7 +66,9 @@ function component() {
 }
 ```
 
-Examples of **correct** code for this rule, when `allowAllPaths` is `true`:
+### 🟢 Correct
+
+When `allowAllPaths` is `true`:
 
 ```jsx
 // hocs/Component.jsx
