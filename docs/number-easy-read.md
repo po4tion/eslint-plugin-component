@@ -6,7 +6,7 @@ This restriction may be one of the ways to improve your number readability.
 
 ## Rule Details
 
-Examples of **incorrect** code for this rule:
+Examples of **🔴 incorrect** code for this rule:
 
 ```jsx
 const num = 11111111;
@@ -16,7 +16,7 @@ const num = 11111111;
 const num = 123456789;
 ```
 
-Examples of **correct** code for this rule:
+Examples of **🟢 correct** code for this rule:
 
 ```jsx
 const num = 11_111_111;

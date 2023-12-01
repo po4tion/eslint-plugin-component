@@ -6,7 +6,7 @@ This restriction applies only if you are in the "components" and "components" pa
 
 ## Rule Details
 
-Examples of **incorrect** code for this rule:
+Examples of **🔴 incorrect** code for this rule:
 
 ```jsx
 const component = () => {};
@@ -16,7 +16,7 @@ const component = () => {};
 function component = () => {}
 ```
 
-Examples of **correct** code for this rule:
+Examples of **🟢 correct** code for this rule:
 
 ```jsx
 const Component = () => {};

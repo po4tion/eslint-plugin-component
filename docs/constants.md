@@ -8,7 +8,7 @@ Users change lowercase letters directly to uppercase letters will not result in 
 
 ## Rule Details
 
-Examples of **incorrect** code for this rule:
+Examples of **🔴 incorrect** code for this rule:
 
 ```jsx
 const number_value = 123456;
@@ -18,7 +18,7 @@ const number_value = 123456;
 const string_value = "string";
 ```
 
-Examples of **correct** code for this rule:
+Examples of **🟢 correct** code for this rule:
 
 ```jsx
 const NUMBER_VALUE = 123456;

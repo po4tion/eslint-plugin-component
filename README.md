@@ -1,5 +1,7 @@
 # eslint-plugin-component
 
+This open source library is developed to improve the developer's experience. 😆
+
 ## Installation
 
 You'll first need to install [ESLint](https://eslint.org/):
