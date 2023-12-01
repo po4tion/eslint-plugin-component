@@ -67,6 +67,12 @@ When `customType` is `["array", "number"]`:
 const array_value = [], number_value = 29, string_value = "string";
 ```
 
+When `customType` is `["null"]`:
+
+```jsx
+const null_value = null;
+```
+
 ### 🟢 Correct
 
 When `customType` is `["array", "object"]`:
@@ -88,6 +94,12 @@ When `customType` is `["array", "number"]`:
 
 ```jsx
 const ARRAY_VALUE = [], NUMBER_VALUE = 29, string_value = "string";
+```
+
+When `customType` is `["null"]`:
+
+```jsx
+const NULL_VALUE = null;
 ```
 
 ## When Not To Use It
